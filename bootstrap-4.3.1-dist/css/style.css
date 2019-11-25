@@ -1,0 +1,366 @@
+.login-sign-up-page {
+    background: linear-gradient(90deg, #00263B, #3280AA, #7EB0CB, #004C75);
+}
+
+#login-container {
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px 2px;
+    box-decoration-break: clone;
+    height: 400px;
+    width: 300px;
+    margin: 70px auto;
+}
+
+.login-sign-up-header {
+    border-bottom: 3px solid #7EB0CB;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    background: #004C75;
+}
+
+.login-sign-up-header p {
+    font-size: 27px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: azure
+}
+
+#login-form {
+    padding: 15px;
+}
+
+.userdetails {
+    height: 25px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 95%;
+    border-bottom-color: #7EB0CB;
+
+}
+
+.submit {
+    cursor: pointer;
+    width: 95%;
+    border: 0;
+    box-shadow: 1px 1px 3px 0px rgba(45, 55, 62, 0.55);
+    background-color: #7EB0CB;
+    border-radius: 3px;
+    padding: 6px;
+    color: floralwhite;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #00263B;
+}
+
+.sign-up {
+    margin-left: 30px;
+}
+
+#login-form P {
+    margin-top: 30px;
+}
+
+.login-sign-up-page a {
+    font-family: "myria pro", "arial", "andale mono", "alike";
+    text-decoration: none;
+    color: #3280AA;
+}
+
+.login-sign-up-page a:hover {
+    color: #004C75;
+}
+
+/********Styles Made for the sign-up Page*************/
+#sign-up-container {
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px 2px;
+    box-decoration-break: clone;
+    height: 620px;
+    width: 320px;
+    margin: 50px auto;
+}
+
+#sign-up-form {
+    padding: 10px;
+}
+
+#sign-up-form P {
+    margin-top: 22px;
+    margin-bottom: 0px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#sign-up-form input[type=radio] {
+    margin-top: 1px;
+}
+
+label {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+/**********ENding for sign-up page***************/
+
+/*****************Start for index Page***********/
+.index-page {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+
+.index-page header {
+    background-image: url("../images/couch-1835923_960_720.jpg");
+}
+
+
+
+.navbar {
+    opacity: 0.7;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+
+}
+
+.navbar li {
+    max-height: 39px;
+}
+
+
+.nav-item a {
+    color: yellow;
+}
+
+.navbar li:hover {
+    border-bottom: 5px solid #f3f358;
+}
+
+.navbar-text a {
+    text-decoration: none;
+    max-height: 39px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+
+}
+
+.navbar-text a:hover {
+    border-bottom: 5px solid #f3f358;
+}
+
+.login-sign-up-link {
+    align-content: flex-end;
+    padding: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+
+.cover-div {
+    height: 280px;
+    max-height: 280px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+}
+
+#cover-text h1 {
+    text-align: center;
+    font-family: "courier new";
+    color: #5B0040;
+    font-weight: bold;
+    background-color: aliceblue;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    opacity: 0.7;
+    font-size: 2em;
+}
+
+
+.search-bar {
+    background-color: white;
+    max-width: 300px;
+    height: 50px;
+    max-height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 100px;
+    opacity: 0.8;
+}
+
+.search-bar input[type="search"] {
+    height: 100%;
+    outline: none;
+    border: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.search-bar input[type="submit"] {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 90px;
+    height: 100%;
+    margin-left: 15px;
+    border: 0px;
+    color: antiquewhite;
+    cursor: pointer;
+    background-color: #5B0040;
+
+    outline: none;
+}
+
+.search-bar input[type="submit"]:hover {
+    background-color: #88005F;
+    outline: none;
+}
+
+.search-bar input[type="submit"]:active {
+    background-color: #933500;
+    outline: none;
+}
+
+.main-section {
+    width: 80%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0px;
+    margin: 20px auto;
+    justify-content: center;
+    height: auto;
+}
+
+.boards {
+    -webkit-box-shadow: -1px 4px 8px 2px rgba(217, 214, 217, 1);
+    -moz-box-shadow: -1px 4px 8px 2px rgba(217, 214, 217, 1);
+    box-shadow: -1px 4px 8px 2px rgba(217, 214, 217, 1);
+    margin: 0px;
+    height: 280px;
+    word-wrap: break-word;
+
+}
+
+.board-title {
+    background-color: #5B0040;
+    color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.boards div {
+    max-height: auto;
+}
+
+.housing {
+    background-image: url(../images/houses.jpg);
+    background-position: center;
+    background-size: cover
+}
+
+.for-sale {
+    background-image: url(../images/pexels-photo-325153.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.board-items {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.board-items li {
+    padding: 4px;
+
+}
+
+.board-items a {
+    text-align: center;
+    font-family: "courier new";
+    color: #5B0040;
+    background-color: aliceblue;
+    border-radius: 15px;
+    opacity: 0.9;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer {
+    background-color: #5B0040;
+    margin-bottom: 0px;
+    object-position: bottom;
+    height: 200px;
+    max-height: 300px;
+}
+
+.top-link {
+    padding: 5px;
+    margin: 0px;
+    background-color: #88005F;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.top-link a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+.main-footer-div {
+    height: auto;
+    text-align: center;
+}
+
+.footer-links-div {
+    margin: auto;
+}
+
+.footer-links {
+    margin: auto;
+    padding-top: 20px;
+    height: auto;
+    color: antiquewhite;
+    list-style: none;
+    width: auto;
+}
+
+.footer-links li {
+    display: inline-block;
+    grid-template-columns: repeat, (auto-fill, minmax(100px, 200px));
+    padding: 10px;
+}
+
+.footer-links a {
+    text-transform: capitalize;
+    color: antiquewhite;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: antiquewhite;
+}
